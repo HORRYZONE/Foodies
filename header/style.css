@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 3%;
+    background-color: #ffffff;
+  }
+
+  .logo, .r-head{
+    display: flex;
+    align-items: center;
+  }
+
+  .site-logo {
+    cursor: pointer;
+
+  }
+
+  .site-name{
+    font-family: Inter;
+    font-style: 700;
+    color: #263238;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 32px;
+  }
+
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: Inter;
+    font-weight: 600;
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav__links li {
+    padding: 0px 20px;
+  }
+
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+
+  .nav__links li a:hover {
+    color: #FFDF61;
+  }
+
+  .nav__links li a:active {
+    color: #FFCC00;
+}
+
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
