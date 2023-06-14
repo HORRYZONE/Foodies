@@ -34,4 +34,4 @@ Route::middleware([
     })->name('dashboard');
 });
 
-//test azmi
+Route::get('order', [OrderController::class, 'index']);
